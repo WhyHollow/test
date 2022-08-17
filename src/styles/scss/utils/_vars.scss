@@ -1,0 +1,47 @@
+$mobile: 375px;
+$mobileMedium: 576px;
+$tablet: 768px;
+$tabletMedium: 992px;
+$desktop: 1280px;
+$desktop2k: 1920px;
+$desktop4k: 2560px;
+$mainFont: Inter, sans-serif;
+
+$font-family-primary: 'Open Sans', sans-serif;
+$font-family-secondary: 'Lato', sans-serif;
+
+// Size
+$mainFontColor: #101010;
+$mainFontSize: 18px;
+$mainFontWeight: 400;
+$mainLineHeight: 1.4;
+
+$mdDesktopWidth: 2560px;
+$desktopWidth: 1920px;
+$smDesktopWidth: 1280px;
+$tableWidth: 992px;
+$smTableWidth: 768px;
+$phoneWidth: 576px;
+$smPhoneWidth: 375px;
+
+// Main color
+$default-color: #ffffff;
+$primary-color: #005fa3;
+$success-color: #26de81;
+$danger-color: #fc5c65;
+$warning-color: #fed330;
+$light-color: #999999;
+$purple-color: #8854d0;
+$background-color: #ebebeb;
+
+// Neutral Color
+$neutral-primary: #303133;
+$neutral-regular: #606266;
+$neutral-secondary: #909399;
+$neutral-placeholder: #c0c4cc;
+
+// Border Color
+$border-base: #dcdfe6;
+$border-light: #e4e7ed;
+$border-lighter: #ebeef5;
+$border-lightex: #f2f6fc;
