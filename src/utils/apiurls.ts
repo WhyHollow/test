@@ -1,11 +1,12 @@
-//account
-export const apiAccount = "/account";
-export const apiLogin = `/${apiAccount}/access/authorize`;
-export const apiRefreshToken = `/${apiAccount}/access/renew`;
-export const apiPasswordReset = "/account/access/reset";
+//auth
+export const apiAuth = "/login";
+export const apiRegister = "/register";
+export const apiProfile = "/profile";
 
-// users
-export const apiUsers = "/users";
+// audio
+export const apiGetAudio = "/audio";
+export const apiUploadFile = `/${apiGetAudio}/upload`;
+export const apiUploadUrl = `/${apiGetAudio}/url`;
 
-// products
-export const apiProducts = "/products";
+// workspace
+export const apiWorkspace = "/workspace";

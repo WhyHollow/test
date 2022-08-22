@@ -4,8 +4,10 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       scss: {
-        additionalData: `@import "@/styles/scss/main.scss";`,
-      },
+        additionalData: '@import "@/styles/scss/main.scss";'
+      }
     },
+    modules: true,
+    extract: false
   },
 });
